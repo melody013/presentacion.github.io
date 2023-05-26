@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+     <!-- MENU ENCABEZADO -->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Turismo</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">DESCRIPCION</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">COMENTARIOS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">INFORMACION</a></li>
+                    <li><a href="#portfolio" onclick="seleccionar()">PAISES</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="img/logo.jfif" alt="">
+            </div>
+            <h1>TuriTravel</h1>
+            <h2>Empresa de turismo - Listos para recibirlos</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-skype"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION SOBRE MI -->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>DESCRIPCION</h2>
+            <p><span>Hola, Somos un equipo.</span> Bienvenidos al sitio de Turismo, TuriTravel
+               esta empresa cuenta con vuelos directos desde las principales ciudades de
+                Paris, China, Colombia, Republica Dominicana, Canada, Estados Unidos y Puerto Rico.
+                  Algunos de estos paises se destacan por la calidez de su clima y la hospitalidad de su gente. </p>
+
+            <div class="fila">
+                <!-- datos personales -->
+                <div class="col">
+                    <h3>Datos de la empresa</h3>
+                    <ul>
+                        <li>
+                            <strong>CREACION</strong>
+                            2/5/2023
+                        </li>
+                        <li>
+                            <strong>TELEFONO</strong>
+                            +1 809-905-6034
+                        </li>
+                        <li>
+                            <strong>EMAIL</strong>
+                            turitravel@gmail.com
+                        </li>
+                        <li>
+                            <strong>SITIO WEB</strong>
+                            www.turitravel.com
+                        </li>
+                        <li>
+                            <strong>DIRRECCION</strong>
+                            51000 Santiago, Republica Dominicana
+                        </li>
+                        <li>
+                            <strong>CARGO</strong>
+                            Independiente
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- intereses -->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="interes">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTE</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="interes">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>FOTOS</span>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+       
+        </div>
+    </section>
+
+    <!-- SECCION SKILLS -->
+    <section class="skills" id="skills">
+        <div class="contenido-seccion">
+            <h2>COMENTARIOS</h2>
+            <div class="fila">
+
+                <!-- Technical Skill -->
+                <div class="col">
+                    <h3>Opiniones Buenas</h3>
+                    <div class="skill">
+                        <span>pabloperez02@gmail.com</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>yackeiridiaz09@gmail.com</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>emelydiaz04@gmail.com</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>melodyjaquez013@hotmail.com</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>81%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>stivenjaquez88@gmail.com</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional Skills -->
+                <div class="col">
+                    <h3>Opiniones Malas</h3>
+                    <div class="skill">
+                        <span>carlosjunior@gmail.com</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>10%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>billybello123@gmail.com</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>25%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>jovannasosa@gmail.com</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>19%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>yanilsaluna4@gmail.com</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>15%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>diegososa00@gmail.com</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>34%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CURRICULUM -->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>FILOSOFIA</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                  
+                    <div class="item izq">
+
+                        <span class="casa">MISION</span>
+                        <span class="fecha"> 2023 - 2024</span>
+                        <p>La empresa brinda una asistencia profesional a todos aquellos que necesiten un servicio de viaje. El esfuerzo está centrado en brindar respuestas rápidas, precisas y eficientes, buscando satisfacer a nuestros clientes con nuestro servicio, asesoramiento, compromiso, precio, solución de posibles inconvenientes (antes, durante ó después de cada viaje). </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                       
+                        <span class="casa">VISION</span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p>Promover el crecimiento sustentable de la organización, basado en la innovación permanente tanto en la prestación de los servicios, el acercamiento a los clientes, la calidad de la información brindada, el asesoramiento adecuado para cada necesidad.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                      
+                        <span class="casa">VALORES</span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p>La empresa se basa en la honestidad, el respeto mutuo, el trabajo en equipo, la responsabilidad, el profesionalismo, la transparencia en las acciones, el compromiso, el crecimiento, la innovación constante y la importancia de nuestros clientes para la vitalidad de la empresa.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <img src="img/vision.jfif" alt="img" style="width:550px;height: 755px;" >
+                    </div>
+                </div>
+
+        </div>
+    </section>
+
+
+    <!-- SECCION PORTFOLIO -->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>Turismo</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <a href="http://127.0.0.1:5500/index.html">
+                    <img src="img/download (3).jfif" alt="paris"  style=width:300px;height:400px;>
+                    <div class="overlay">
+                        <h3>Paris</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </a>
+                <div class="proyecto">
+                    <img src="img/download (2).jfif" alt="china"  style=width:300px;height:400px;>
+                    <div class="overlay">
+                        <h3>China</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/mexico.png" alt="mexico"  style=width:300px;height:400px;>
+                    <div class="overlay">
+                        <h3>Mexico</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p04.jfif" alt="colombia"  style=width:300px;height:400px;>
+                    <div class="overlay">
+                        <h3>Colombia</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p005.jfif" alt="REP.DOM"  style=width:300px;height:400px;>
+                    <div class="overlay">
+                        <h3>Republica Dominicana</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p06.jfif" alt="Canada"  style=width:300px;height:400px;>
+                    <div class="overlay">
+                        <h3>Canada</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                    <div class="proyecto">
+                        <img src="img/eeuu.jfif" alt="EE.UU"  style=width:300px;height:400px;>
+                        <div class="overlay">
+                            <h3>Estados Unidos</h3>
+                            <p>Fotografía</p>
+                        </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/puerto rico.jfif" alt="paris"  style=width:300px;height:400px;>
+                    <div class="overlay">
+                        <h3>Puerto Rico</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/Haiti.jfif" alt="Haiti"  style=width:300px;height:400px;>
+                    <div class="overlay">
+                        <h3>Haiti</h3>
+                        <p>Fotografía</p>
+                    </div>
+                    
+    
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION CONTACTO -->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Nombre">
+                    <input type="text" placeholder="Número telefónico">
+                    <input type="text" placeholder="Dirección de correo">
+                    <input type="text" placeholder="Pais">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    
+                    <button>
+                        Enviar<i class="fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!-- Mapa -->
+                <div class="col">
+                    <img src="img/ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                51000 Santiago, Republica Dominicana
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos: +1 809-905-6034
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: turitravel@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-skype"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
